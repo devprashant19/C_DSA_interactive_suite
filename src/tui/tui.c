@@ -1,3 +1,4 @@
+#ifndef _WIN32
 // #include <math.h>
 #include <ncurses.h>
 // #include <stdlib.h>
@@ -670,3 +671,4 @@ void tui_run(void)
         delwin(status_win);
     }
 }
+#endif
